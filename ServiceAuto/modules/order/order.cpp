@@ -2,7 +2,7 @@
 
 Order::Order() : serviceName(""), price(0.0), quantity(0) {}
 
-Order::Order(string serviceName, double price, int quantity)
+Order::Order(string serviceName, float price, int quantity)
     : serviceName(serviceName), price(price), quantity(quantity) {}
 
 void Order::display() {
